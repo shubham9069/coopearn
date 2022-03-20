@@ -1,0 +1,147 @@
+:root{
+    font-size:20px;
+
+}
+
+.img{
+    height:85px;
+    width:200px;
+    padding: 10px;
+    
+}
+.section{
+    
+    padding: 17px;
+    margin: 17px;
+    
+    
+}
+.buttonnav{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+
+    margin:15px;
+    
+}
+
+.navbar{
+    font-size : 1em;
+    display: flex;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    
+    
+
+}
+.buttonnav:hover{
+    background-color:rgb(172, 169, 169);
+    border-radius:10px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius :10px;
+    height:30px;
+    width:300px;
+    margin: 30px auto;[]
+    
+    
+    
+    
+    
+    
+}
+#form{
+
+    text-align: center;
+    margin: 0 auto; 
+    /* padding: 70px 50px; */
+    
+    
+}
+.img1{
+    
+    height:auto;
+    width: 500px;
+    
+
+    
+    
+    
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#join{
+  padding: 10px;
+  background-color:rgb(185, 80, 28);
+  border-radius:10px;
+  color: white;
+  text-decoration:  none;
+  border: 1px solid white;
+  margin: 10px;
+  
+}
+image{ 
+    width: 100%;
+    float: right;
+    
+}
+p{
+    /* width: 300px; */
+    text-align: center;
+    font-size:1em;
+    /* padding: 0px 20px; */
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size:1.8em;
+    color: white;
+}
+ .mid::before{
+    content: " ";
+    background: url(freelancing.jpeg)  no-repeat center center/cover;
+    height:400px;
+    width:100%;
+    display: flex;
+    position: absolute;
+    z-index:-5;
+    /* filter: blur(5px); */
+    
+
+} 
+#middle{
+    background: antiquewhite;
+}
+#header{
+
+    margin: 15px;
+    margin-top: 30px;
+    color: black;
+    font-size: 3em;
+    background-color: rgb(250, 181, 181);
+}
+.icon{
+    width:150px;
+    height:150px;
+    
+}
+.text{
+    background-color: #f7f3d9;
+    border: 1px solid black;
+    margin: 25px;
+      text-align: center;
+
+}
+.description{
+    font-size:1.5em;
+    color:black;
+}
